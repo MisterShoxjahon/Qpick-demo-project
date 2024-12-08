@@ -9,7 +9,12 @@
 
 body{
     font-family: "Montserrat", sans-serif;
-    background: #EAEAEA;
+    background: rgb(230, 225, 225);
+}
+
+.container{
+    width: 1120px;
+    margin: auto;
 }
 
 nav{
@@ -40,4 +45,31 @@ nav{
 .header__banner_img{
     width: 100%;
     left: 50px; 
+}
+
+.card{
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 25px;
+    background: white;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px 1px gray;
+}
+
+.title{
+    padding-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+section{
+    margin-top: 88px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
 }
